@@ -1,0 +1,15 @@
+:root {
+    /* font-family  */
+    --font_PoppinsRegular: "Poppins Regular";
+    /* font-family End */
+    /* color */
+    --color_C90000: #C90000;
+    --color_FFFFFF: #FFFFFF;
+    --color_7D7C7C: #7D7C7C;
+    --color_FFC300: #FFC300;
+    --color_323232: #323232;
+    --color_504F4F: #504F4F;
+    --color_F1F1F1: #F1F1F1;
+
+    /* color End */
+}

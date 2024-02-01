@@ -1,0 +1,33 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font_PoppinsRegular);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.containter_site {
+    max-width: 117rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
