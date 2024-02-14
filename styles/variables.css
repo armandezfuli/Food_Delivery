@@ -1,22 +1,26 @@
 :root {
     /* font-family  */
-    --font_PoppinsRegular: "Poppins Regular";
+    --font_PoppinsRegular: "Poppins Regular", "Poppins Italic", "Poppins Thin",
+        "Poppins Thin Italic", "Poppins ExtraLight", "Poppins ExtraLight Italic",
+        "Poppins Light", "Poppins Light Italic", "Poppins Medium", "Poppins Medium Italic",
+        "Poppins SemiBold", "Poppins SemiBold Italic", "Poppins Bold",
+        "Poppins Bold Italic", "Poppins ExtraBold", "Poppins ExtraBold Italic",
+        "Poppins Black", "Poppins Black Italic", Arial, sans-serif;
     /* font-family End */
     /* color */
-    --color_C90000: #C90000;
-    --color_FFFFFF: #FFFFFF;
-    --color_7D7C7C: #7D7C7C;
-    --color_FFC300: #FFC300;
+    --color_C90000: #c90000;
+    --color_FFFFFF: #ffffff;
+    --color_7D7C7C: #7d7c7c;
+    --color_FFC300: #ffc300;
     --color_323232: #323232;
-    --color_504F4F: #504F4F;
-    --color_F1F1F1: #F1F1F1; 
-    --color_FFFEF9: #FFFEF9;
-    --color_FFF6A3: #FFF6A3;
-    --color_E3E3E3: #E3E3E3;
-    --color_FFD429: #FFD429;
-    --color_FFFDE6: #FFFDE6;
-    --color_FFEAE6: #FFEAE6;
-
+    --color_504F4F: #504f4f;
+    --color_F1F1F1: #f1f1f1;
+    --color_FFFEF9: #fffef9;
+    --color_FFF6A3: #fff6a3;
+    --color_E3E3E3: #e3e3e3;
+    --color_FFD429: #ffd429;
+    --color_FFFDE6: #fffde6;
+    --color_FFEAE6: #ffeae6;
 
     /* color End */
 }
