@@ -1,0 +1,135 @@
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    gap: 10rem;
+    background-color: #fffde6;
+    padding: 3.2rem 0;
+}
+
+.footer .useful_links {
+    min-height: 24.8rem;
+}
+
+.footer .useful_links h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    color: var(--color_323232);
+}
+
+.footer .useful_links ul {
+    margin-top: 3.2rem;
+}
+
+.footer .useful_links ul li a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 3.6rem;
+    color: var(--color_323232);
+}
+
+.footer .opening_hour {
+    min-height: 24.8rem;
+}
+
+.footer .opening_hour h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    color: var(--color_323232);
+}
+
+.footer .opening_hour ul {
+    margin-top: 3.2rem;
+}
+
+.footer .opening_hour ul li {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 3.6rem;
+    color: var(--color_323232);
+}
+
+.footer .sns {
+    grid-row: 1/2;
+}
+
+.footer .sns > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+
+}
+
+.footer .sns > div h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4.8rem;
+    color: var(--color_323232);
+}
+
+.footer .sns > div img {
+    width: 7rem;
+    height: 7rem;
+}
+
+.footer .sns ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.footer .sns ul li {
+    cursor: pointer;
+}
+
+.footer .sns ul li img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+
+@media (max-width: 1100px) {
+    .footer {
+        margin-top: 15rem;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .footer {
+        gap: 10rem;
+    }
+
+    .footer .sns {
+        grid-row: unset;
+        grid-column: 1/3;
+    }
+}
+
+@media (max-width: 556px) {
+    .footer {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15rem;
+        gap: 3rem;
+        background-color: #fffde6;
+        padding: 3.2rem 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        gap: 1rem;
+    }
+}
